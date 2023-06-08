@@ -1,12 +1,13 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:ui_practice/carousel_home.dart';
+import 'package:ui_practice/carousel_stopman.dart';
 
 
 
-List<StatelessWidget> splashList = [
+List<Widget> splashList = [
   const CarouselHome(),
-  // const SplashInfo(),
+  const CarouselStopman(),
   // const SplashSupport(),
 ];
 
